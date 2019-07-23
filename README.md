@@ -1,5 +1,3 @@
-# React Router Example
+# apm-rum-react Integration Testing
 
-- How to make a Single Page Application with React Router.
-
-### [View Tutorial](https://www.taniarascia.com/using-react-router-spa)
+Testing `@elastic/apm-rum-react` on Single Page Application with react router

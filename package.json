@@ -1,11 +1,9 @@
 {
-  "name": "router-example",
-  "version": "0.1.0",
-  "description": "Use React Router DOM to create a Single Page Application",
-  "private": false,
+  "name": "rum-react-spa",
+  "version": "0.0.0",
   "dependencies": {
+    "@elastic/apm-rum-react": "^0.1.0",
     "axios": "^0.18.0",
-    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",

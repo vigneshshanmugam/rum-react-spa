@@ -1,23 +1,24 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 export default function UserPage(props) {
   const initialUserState = {
     user: {},
-    loading: true,
-  }
+    loading: true
+  };
 
-  const [user, setUser] = useState(initialUserState)
+  const [user, setUser] = useState(initialUserState);
 
   useEffect(() => {
-    const getUser = async () => {
-      const { data } = await axios(`https://api.github.com/users/${props.match.params.id}`)
-
-      setUser(data)
+    async function getUser() {
+      const { data } = await axios(
+        `https://api.github.com/users/${props.match.params.id}`
+      );
+      setUser(data);
     }
 
-    getUser()
-  }, [])
+    getUser();
+  }, [props.match.params.id]);
 
   return user.loading ? (
     <div>Loading...</div>
@@ -46,5 +47,5 @@ export default function UserPage(props) {
         </tbody>
       </table>
     </div>
-  )
+  );
 }

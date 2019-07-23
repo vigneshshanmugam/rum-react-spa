@@ -1,13 +1,16 @@
-import React from 'react'
-import { Route, Switch } from 'react-router-dom'
-import HomePage from './pages/HomePage'
-import UserPage from './pages/UserPage'
+import React from "react";
+import { ApmRoute } from "@elastic/apm-rum-react/dist/lib/index";
+import { Switch } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import UserPage from "./pages/UserPage";
+import TestPage from "./pages/TestPage";
 
 export default function App() {
   return (
     <Switch>
-      <Route exact path="/" component={HomePage} />
-      <Route path="/:id" component={UserPage} />
+      <ApmRoute exact path="/" component={HomePage} />
+      <ApmRoute path="/test" component={TestPage} />
+      <ApmRoute path="/:id" component={UserPage} />
     </Switch>
-  )
+  );
 }
