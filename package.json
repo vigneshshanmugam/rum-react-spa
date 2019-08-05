@@ -2,11 +2,12 @@
   "name": "rum-react-spa",
   "version": "0.0.0",
   "dependencies": {
-    "@elastic/apm-rum-react": "^0.1.0",
+    "@elastic/apm-rum": "^4.4.0",
+    "@elastic/apm-rum-react": "^0.2.0",
     "axios": "^0.18.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "3.0.0"
   },
   "scripts": {

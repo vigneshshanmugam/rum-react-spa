@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-export default function TestPage() {
+export default function TestComponent(props) {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    async function dummyGet() {
+      try {
+        await fetch("/test/e2e/data.json");
+      } catch (_) {
+      } finally {
+        setCount(2);
+      }
+    }
+    dummyGet();
+  }, []);
+
   return (
-    <div className="container">
-      <h1>Test Page</h1>
+    <div id="func-container">
+      {props.match.path + "\n"}
+      {count}
     </div>
   );
 }
