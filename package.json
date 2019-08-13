@@ -2,8 +2,8 @@
   "name": "rum-react-spa",
   "version": "0.0.0",
   "dependencies": {
-    "@elastic/apm-rum": "^4.4.0",
-    "@elastic/apm-rum-react": "^0.2.0",
+    "@elastic/apm-rum": "^4.4.2",
+    "@elastic/apm-rum-react": "^0.2.2",
     "axios": "^0.18.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

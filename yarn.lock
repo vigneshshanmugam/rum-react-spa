@@ -939,31 +939,30 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-9.0.1.tgz#c27b391d8457d1e893f1eddeaf5e5412d12ffbb5"
   integrity sha512-6It2EVfGskxZCQhuykrfnALg7oVeiI6KclWSmGDqB0AiInVrTGB9Jp9i4/Ad21u9Jde/voVQz6eFX/eSg/UsPA==
 
-"@elastic/apm-rum-core@^4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@elastic/apm-rum-core/-/apm-rum-core-4.5.0.tgz#861bc938ba66bf8fbcdb5be20277035ec8400a31"
-  integrity sha512-Fa33OtdFKvJnb9gpxebFKQn7SS18WyGSOZMBTf66ePWQw0ng+1/3VKU6R0rK7eGehMPHvPCUM4e1YTlOcLU8fw==
+"@elastic/apm-rum-core@^4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@elastic/apm-rum-core/-/apm-rum-core-4.5.2.tgz#593289ba087ff534af8f2716cd3a12781c836ea0"
+  integrity sha512-/gCsYoXoVcQo74gQbVNjGU7OVzE2ZJxwZW/EBajMMg26Za77mXfLqEdUDZaiHLNEmx+t7psGTaa/Ud3AtUCS7g==
   dependencies:
     error-stack-parser "^1.3.5"
+    es6-promise "^4.2.8"
     opentracing "^0.14.3"
-    stack-generator "^1.0.7"
     uuid "^3.1.0"
 
-"@elastic/apm-rum-react@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@elastic/apm-rum-react/-/apm-rum-react-0.2.0.tgz#96c9a7f04be2e3307e3ce97aa59b48727ca58478"
-  integrity sha512-OFmFfRl4p9Q+lRE6rSHxa/GTL2ljyb+vS1gqcu+EJcXA4A16C78esUlor1qfrzI6LUaJ/PrmeLb7aYkhTJTB+A==
+"@elastic/apm-rum-react@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@elastic/apm-rum-react/-/apm-rum-react-0.2.2.tgz#d61f9a601778e4230b56556e28d64e73b296d7c0"
+  integrity sha512-dBGVvYsiLGPZqxoOO70gm3nv4JYL1mH6qoCk8CEVk8Cd1eoibz6pBy4wtZU/dJDs/ihEgNlb3SFmAwyPHarX7A==
   dependencies:
-    "@elastic/apm-rum" "^4.4.0"
+    "@elastic/apm-rum" "^4.4.2"
     hoist-non-react-statics "^3.3.0"
 
-"@elastic/apm-rum@^4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@elastic/apm-rum/-/apm-rum-4.4.0.tgz#bdac4d00facc0df9bd469552fba7697f401ebc90"
-  integrity sha512-hKNUoczUwVDjOAlNw7z7dGWMNS+GRK48QVLU0ZTtvpvLchkoPt1KeWF7Y1l6XJ7P68DtgtTsKaBxw1SPl13NMQ==
+"@elastic/apm-rum@^4.4.2":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@elastic/apm-rum/-/apm-rum-4.4.2.tgz#d81530fb2894697bd05d1f0cc3a69cc18ff01016"
+  integrity sha512-QOHpa7GkSzN93Ipdf2J8Fh9Q/BfMphprppd/m/WHA/RY1pB40LlS8alr7eXFzHu33FnqIp3jCNtkmS0m3rkC3w==
   dependencies:
-    "@elastic/apm-rum-core" "^4.5.0"
-    es6-promise "^4.2.4"
+    "@elastic/apm-rum-core" "^4.5.2"
 
 "@hapi/address@2.x.x":
   version "2.0.0"
@@ -3496,7 +3495,7 @@ es-to-primitive@^1.2.0:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-es6-promise@^4.2.4:
+es6-promise@^4.2.8:
   version "4.2.8"
   resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
   integrity sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==
@@ -8891,13 +8890,6 @@ stable@^0.1.8:
   resolved "https://registry.yarnpkg.com/stable/-/stable-0.1.8.tgz#836eb3c8382fe2936feaf544631017ce7d47a3cf"
   integrity sha512-ji9qxRnOVfcuLDySj9qzhGSEFVobyt1kIOSkj1qZzYLzq7Tos/oUUWvotUPQLlrsidqsK6tBH89Bc9kL5zHA6w==
 
-stack-generator@^1.0.7:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/stack-generator/-/stack-generator-1.1.0.tgz#36f6a920751a6c10f499a13c32cbb5f51a0b8b25"
-  integrity sha1-NvapIHUabBD0maE8Msu19RoLiyU=
-  dependencies:
-    stackframe "^1.0.2"
-
 stack-utils@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/stack-utils/-/stack-utils-1.0.2.tgz#33eba3897788558bebfc2db059dc158ec36cebb8"
@@ -8907,11 +8899,6 @@ stackframe@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-0.3.1.tgz#33aa84f1177a5548c8935533cbfeb3420975f5a4"
   integrity sha1-M6qE8Rd6VUjIk1Uzy/6zQgl19aQ=
-
-stackframe@^1.0.2:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.0.4.tgz#357b24a992f9427cba6b545d96a14ed2cbca187b"
-  integrity sha512-to7oADIniaYwS3MhtCa/sQhrxidCCQiF/qp4/m5iN3ipf0Y7Xlri0f6eG29r08aL7JYl8n32AF3Q5GYBZ7K8vw==
 
 static-extend@^0.1.1:
   version "0.1.2"
